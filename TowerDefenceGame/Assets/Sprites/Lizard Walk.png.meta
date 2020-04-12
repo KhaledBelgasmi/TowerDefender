@@ -114,10 +114,10 @@ TextureImporter:
       name: Lizard Walk_0
       rect:
         serializedVersion: 2
-        x: 34
-        y: 951
-        width: 83
-        height: 88
+        x: 0
+        y: 930
+        width: 251
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,7 +125,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 329a2cf11ce102b40908841c042e7cf8
+      spriteID: 802a93da24656774aa7cd73119d94e2c
       vertices: []
       indices: 
       edges: []
@@ -134,10 +134,10 @@ TextureImporter:
       name: Lizard Walk_1
       rect:
         serializedVersion: 2
-        x: 285
-        y: 951
-        width: 83
-        height: 88
+        x: 251
+        y: 930
+        width: 251
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,7 +145,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8de9e5cbe7953354db93646da88f53a7
+      spriteID: 992b107165be9f946b873d76ac5dbebf
       vertices: []
       indices: 
       edges: []
@@ -154,10 +154,10 @@ TextureImporter:
       name: Lizard Walk_2
       rect:
         serializedVersion: 2
-        x: 538
-        y: 952
-        width: 81
-        height: 88
+        x: 502
+        y: 930
+        width: 251
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,7 +165,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3e29752d64624645aaf7061521a46d8
+      spriteID: c05f94b792b57cc489f954ae1afa8c36
       vertices: []
       indices: 
       edges: []
@@ -174,10 +174,10 @@ TextureImporter:
       name: Lizard Walk_3
       rect:
         serializedVersion: 2
-        x: 37
-        y: 766
-        width: 80
-        height: 89
+        x: 0
+        y: 744
+        width: 251
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,7 +185,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 852098888e489864a90293585d67144b
+      spriteID: 86f906cf8048eee4ba689a0354836dad
       vertices: []
       indices: 
       edges: []
@@ -194,10 +194,10 @@ TextureImporter:
       name: Lizard Walk_4
       rect:
         serializedVersion: 2
-        x: 289
-        y: 767
-        width: 79
-        height: 90
+        x: 251
+        y: 744
+        width: 251
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,7 +205,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbfeddc4e9cb08344aba04799b8c395f
+      spriteID: cd033651134d32241bef3613fbd642cd
       vertices: []
       indices: 
       edges: []
@@ -214,10 +214,10 @@ TextureImporter:
       name: Lizard Walk_5
       rect:
         serializedVersion: 2
-        x: 540
-        y: 768
-        width: 79
-        height: 88
+        x: 502
+        y: 744
+        width: 251
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,7 +225,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2775e450098147846b716348f5cdf648
+      spriteID: c46d21f4443bde04dbdc4913b2f6b50e
       vertices: []
       indices: 
       edges: []
@@ -234,10 +234,10 @@ TextureImporter:
       name: Lizard Walk_6
       rect:
         serializedVersion: 2
-        x: 37
-        y: 584
-        width: 80
-        height: 85
+        x: 0
+        y: 558
+        width: 251
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,7 +245,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28e13bde84cdc0545ab925598e173c13
+      spriteID: de9afe9b0dfe75d43ab3b6b9cbbd81dd
       vertices: []
       indices: 
       edges: []
@@ -254,10 +254,10 @@ TextureImporter:
       name: Lizard Walk_7
       rect:
         serializedVersion: 2
-        x: 287
-        y: 584
-        width: 81
-        height: 84
+        x: 251
+        y: 558
+        width: 251
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,7 +265,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2706c63b602598d49a1f4b7204a78301
+      spriteID: e1ba19df22468e64c913b43e526ac969
       vertices: []
       indices: 
       edges: []
@@ -274,10 +274,10 @@ TextureImporter:
       name: Lizard Walk_8
       rect:
         serializedVersion: 2
-        x: 537
-        y: 584
-        width: 82
-        height: 83
+        x: 502
+        y: 558
+        width: 251
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -285,7 +285,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34a1f263910b17d438dd95a96ff80932
+      spriteID: 0abb1df9ce811824386b5507ece64400
       vertices: []
       indices: 
       edges: []
@@ -294,10 +294,10 @@ TextureImporter:
       name: Lizard Walk_9
       rect:
         serializedVersion: 2
-        x: 35
-        y: 397
-        width: 82
-        height: 84
+        x: 0
+        y: 372
+        width: 251
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,7 +305,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 228e13789ce384a45a616d938477e882
+      spriteID: d9c79d5efaac725478977bfcb09f5cd3
       vertices: []
       indices: 
       edges: []
@@ -314,10 +314,10 @@ TextureImporter:
       name: Lizard Walk_10
       rect:
         serializedVersion: 2
-        x: 287
-        y: 394
-        width: 81
-        height: 88
+        x: 251
+        y: 372
+        width: 251
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -325,7 +325,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfa6610bb5254ad46bcba98f61739083
+      spriteID: ec25f31aff4f30d408d488d372b3b41f
       vertices: []
       indices: 
       edges: []
@@ -334,10 +334,10 @@ TextureImporter:
       name: Lizard Walk_11
       rect:
         serializedVersion: 2
-        x: 540
-        y: 394
-        width: 79
-        height: 90
+        x: 502
+        y: 372
+        width: 251
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -345,7 +345,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f340e7b9f710b844bcdeed58512e927
+      spriteID: ac09bbf82b9a62a4998cf3f2ee2d5cdd
       vertices: []
       indices: 
       edges: []
@@ -354,10 +354,10 @@ TextureImporter:
       name: Lizard Walk_12
       rect:
         serializedVersion: 2
-        x: 38
-        y: 209
-        width: 79
-        height: 89
+        x: 0
+        y: 186
+        width: 251
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,7 +365,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64e74f105ee0bca4989405289435539b
+      spriteID: ec7136f63ebd90647ba46f64ff6e62da
       vertices: []
       indices: 
       edges: []
@@ -374,10 +374,10 @@ TextureImporter:
       name: Lizard Walk_13
       rect:
         serializedVersion: 2
-        x: 288
-        y: 207
-        width: 80
-        height: 91
+        x: 251
+        y: 186
+        width: 251
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -385,7 +385,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1303a0c9238d934db154217116f9812
+      spriteID: 26c6630af9f6021448467914a49a5cb2
       vertices: []
       indices: 
       edges: []
@@ -394,10 +394,10 @@ TextureImporter:
       name: Lizard Walk_14
       rect:
         serializedVersion: 2
-        x: 539
-        y: 206
-        width: 80
-        height: 91
+        x: 502
+        y: 186
+        width: 251
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -405,7 +405,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ce27f103e6e0504ea742aa309094f3c
+      spriteID: e658faf3225000f48bc2fcffc7fd5210
       vertices: []
       indices: 
       edges: []
@@ -414,10 +414,10 @@ TextureImporter:
       name: Lizard Walk_15
       rect:
         serializedVersion: 2
-        x: 35
-        y: 20
-        width: 82
-        height: 90
+        x: 0
+        y: 0
+        width: 251
+        height: 186
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -425,7 +425,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e34be846c179c04bb550a31cdcedb31
+      spriteID: abe3a33cca1b0444ea29e06cfbed6273
       vertices: []
       indices: 
       edges: []
