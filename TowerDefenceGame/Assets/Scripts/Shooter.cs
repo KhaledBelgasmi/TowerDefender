@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Shooter : MonoBehaviour
 {
-    [SerializeField] GameObject projectile, gun;
-    //This allows you to quickly reference GameObjects by ragging and dropping onto the script in Unity
+    [SerializeField] GameObject projectile;
+    [SerializeField] GameObject gun;
+    //This allows you to quickly reference GameObjects by dragging and dropping onto the script in Unity
 
     public void Fire()
     {
