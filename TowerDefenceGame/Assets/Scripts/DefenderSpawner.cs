@@ -37,7 +37,6 @@ public class DefenderSpawner : MonoBehaviour
 
     private void SpawnDefender(Vector2 roundedPos)
     {
-        Defender newDefender = Instantiate(defender, roundedPos, Quaternion.identity) as Defender;
-        Debug.Log(roundedPos);
+        Defender newDefender = Instantiate(defender, roundedPos, Quaternion.identity) as Defender;        
     }
 }

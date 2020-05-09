@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 312
     width: 657
     height: 324
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 104, y: 124}
+  m_MaxSize: {x: 4004, y: 4024}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -72,10 +72,10 @@ MonoBehaviour:
     y: 0
     width: 657
     height: 636
-  m_MinSize: {x: 104, y: 224}
-  m_MaxSize: {x: 4004, y: 8024}
+  m_MinSize: {x: 104, y: 248}
+  m_MaxSize: {x: 4004, y: 8048}
   vertical: 1
-  controlID: 81
+  controlID: 14
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -152,10 +152,10 @@ MonoBehaviour:
     y: 30
     width: 1280
     height: 636
-  m_MinSize: {x: 613, y: 474}
-  m_MaxSize: {x: 18008, y: 14024}
+  m_MinSize: {x: 611, y: 474}
+  m_MaxSize: {x: 18006, y: 14024}
   vertical: 0
-  controlID: 80
+  controlID: 13
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -175,8 +175,8 @@ MonoBehaviour:
     y: 0
     width: 277
     height: 636
-  m_MinSize: {x: 277, y: 74}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -329,26 +329,10 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ViewTransforms:
     m_KeySerializationHelper:
-    - {fileID: 1107812328388254714, guid: 09faf6711387cd941acbcbb465e004a2, type: 2}
     - {fileID: 1107383719891992638, guid: edd3091de2c11a144bce77de023a6891, type: 2}
-    - {fileID: 1107141655150618022, guid: abb8be6ca4fd5ff4e8fa7355b6219cb6, type: 2}
+    - {fileID: 1107026616509669890, guid: 83508105b4abfad46bbc4a7cb7cefeb5, type: 2}
+    - {fileID: 1107781387159411482, guid: abb8be6ca4fd5ff4e8fa7355b6219cb6, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.35578948
-      e01: 0
-      e02: 0
-      e03: -2.7894745
-      e10: 0
-      e11: 0.35578948
-      e12: 0
-      e13: 79.461754
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
     - e00: 0.39157894
       e01: 0
       e02: 0
@@ -365,14 +349,30 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 0.39157894
+    - e00: 0.42262185
       e01: 0
       e02: 0
-      e03: -4.5789185
+      e03: -13.789688
       e10: 0
-      e11: 0.39157894
+      e11: 0.42262185
       e12: 0
-      e13: 95.3
+      e13: 112.30056
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
       e20: 0
       e21: 0
       e22: 1
@@ -382,10 +382,10 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 09faf6711387cd941acbcbb465e004a2,
+  m_AnimatorController: {fileID: 9100000, guid: abb8be6ca4fd5ff4e8fa7355b6219cb6,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 1107812328388254714, guid: 09faf6711387cd941acbcbb465e004a2,
+  - m_Target: {fileID: 1107781387159411482, guid: abb8be6ca4fd5ff4e8fa7355b6219cb6,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -427,7 +427,7 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -28692
+  m_LastSelectedObjectID: -1108
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -459,9 +459,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 5.4625807, y: 1.0504135, z: 2.2721577}
+    m_Target: {x: 4.497237, y: 2.7427263, z: 2.2684138}
     speed: 2
-    m_Value: {x: 5.4625807, y: 1.0504135, z: 2.2721577}
+    m_Value: {x: 4.497237, y: 2.7427263, z: 2.2684138}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -493,15 +493,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: -1}
   m_Size:
-    m_Target: 6.2789145
+    m_Target: 6.6256056
     speed: 2
-    m_Value: 6.2789145
+    m_Value: 6.6256056
   m_Ortho:
     m_Target: 1
     speed: 2
     m_Value: 1
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: -0.013251514, y: -0.8334717, z: 0.02000717, w: -0.55204076}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -656,20 +656,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Animation
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Animation
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Khaled\Documents\GitHub\TowerDefender\TowerDefenceGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c0090000
-    m_LastClickedID: 2496
-    m_ExpandedIDs: 00000000940900007c0c000000ca9a3b
+    m_SelectedIDs: ae0c0000
+    m_LastClickedID: 3246
+    m_ExpandedIDs: 0000000098090000800c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -697,7 +697,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 728dffff
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000940900007c0c0000
+    m_ExpandedIDs: 0000000098090000800c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -816,20 +816,20 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 18}
-      m_SelectedIDs: ec8fffff
-      m_LastClickedID: -28692
-      m_ExpandedIDs: d077ffffa6fbffffdefbffffda0d0000
+      m_SelectedIDs: acdaffff
+      m_LastClickedID: -9556
+      m_ExpandedIDs: 78fbffff7efbffffb8fbffffccfbffffdefbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Top
-        m_OriginalName: Top
+        m_Name: Trophy
+        m_OriginalName: Trophy
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -1108
+        m_UserData: -1096
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0

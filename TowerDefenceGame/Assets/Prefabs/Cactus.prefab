@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4136718194710074895}
   - component: {fileID: 577442166556881962}
+  - component: {fileID: 557380540}
   m_Layer: 0
   m_Name: Cactus
   m_TagString: Untagged
@@ -44,6 +45,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8bf0bc5b7b1cfb4b8d627bd0bf2d8ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  starCost: 100
+--- !u!114 &557380540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2178215931369295422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 704dcd97e23eb874e9dc8888af7e952a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectile: {fileID: 1531865436847397251, guid: 6f9087073e044c246972e78a989f2c0b,
+    type: 3}
+  gun: {fileID: 6409666630483086586}
 --- !u!1 &6409666630156240073
 GameObject:
   m_ObjectHideFlags: 0
@@ -54,8 +71,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6409666630156240085}
   - component: {fileID: 6409666630156240084}
-  - component: {fileID: 6409666630156240075}
-  - component: {fileID: 6409666630156240074}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -126,40 +141,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &6409666630156240075
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6409666630156240073}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: abb8be6ca4fd5ff4e8fa7355b6219cb6, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &6409666630156240074
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6409666630156240073}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 704dcd97e23eb874e9dc8888af7e952a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  projectile: {fileID: 1531865436847397251, guid: 6f9087073e044c246972e78a989f2c0b,
-    type: 3}
-  gun: {fileID: 6409666630483086586}
 --- !u!1 &6409666630483086586
 GameObject:
   m_ObjectHideFlags: 0
