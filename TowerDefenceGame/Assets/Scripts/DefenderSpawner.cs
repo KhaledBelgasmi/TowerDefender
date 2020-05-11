@@ -9,7 +9,7 @@ public class DefenderSpawner : MonoBehaviour
 
     private void OnMouseDown()
     {
-        SpawnDefender(GetSquareClicked());        
+        AttemptToPlaceDefenderAt(GetSquareClicked());        
     }
 
     public void SetSelectedDefender(Defender defenderToSelect)
@@ -17,6 +17,19 @@ public class DefenderSpawner : MonoBehaviour
         defender = defenderToSelect;
         //the defender which is passed as part of this method is assigned to the defender variable so it 
         //can be utilised by the SpawnDefender() method
+    }
+
+    private void AttemptToPlaceDefenderAt(Vector2 gridPos)
+    {
+        var starDisplay = FindObjectOfType<StarDisplay>();
+        int defenderCost = defender.GetStarCost();
+        if (starDisplay.HaveEnoughStars(defenderCost))
+        {
+            SpawnDefender(gridPos);
+            starDisplay.SpendStars(defenderCost);
+        }
+        //starDisplay allows access to the StarDisplay class
+        //The Defender type at top of script already allows access to the Defender class       
     }
 
     private Vector2 GetSquareClicked()

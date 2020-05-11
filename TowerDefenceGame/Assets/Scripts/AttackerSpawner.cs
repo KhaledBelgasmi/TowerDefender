@@ -22,7 +22,10 @@ public class AttackerSpawner : MonoBehaviour
 
     private void SpawnAttacker()
     {
-        Instantiate(attackerPrefab, transform.position, transform.rotation);   
+        Attacker newAttacker = Instantiate(attackerPrefab, transform.position, transform.rotation) as Attacker;
+        newAttacker.transform.parent = transform;
+        //This is a way of having attackers spawn as children of their parent gameObjects in the Unity hierarchy
+        //This is also used to determine if defenders attack. they only attack when there is an attacker in their lane. 
     }
 
     // Update is called once per frame
