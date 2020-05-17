@@ -6,6 +6,7 @@ public class Shooter : MonoBehaviour
 {
     [SerializeField] GameObject projectile, gun;
     AttackerSpawner myLaneSpawner;
+    Animator animator;
    
     //This allows you to quickly reference GameObjects by dragging and dropping onto the script in Unity
 
@@ -13,20 +14,19 @@ public class Shooter : MonoBehaviour
     private void Start()
     {
         SetLaneSpawner();
+        animator = GetComponent<Animator>();
     }
 
     public void Update()
     {
         if (IsAttackerInLane())
         {
-            Debug.Log("Shooting");
-            //TODO change animation state to shooting
+            animator.SetBool("isAttacking", true);
         }
         
         else
         {
-            Debug.Log("sit and wait");
-            //TODO change animation state to idle
+            animator.SetBool("isAttacking", false);
         }
     }
 
