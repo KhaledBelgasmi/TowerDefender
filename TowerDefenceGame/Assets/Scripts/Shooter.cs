@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Shooter : MonoBehaviour
 {
-    [SerializeField] GameObject projectile, gun;
+    [SerializeField] GameObject projectile;
+    [SerializeField] GameObject gun;
     AttackerSpawner myLaneSpawner;
     Animator animator;
    
