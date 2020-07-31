@@ -466,7 +466,7 @@ GameObject:
   - component: {fileID: 5863893257829249660}
   - component: {fileID: 919553181673179512}
   m_Layer: 5
-  m_Name: Level lost text
+  m_Name: Level complete text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -519,7 +519,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: ebd729b7c3885584abf47951ad5c7a91, type: 3}
-    m_FontSize: 120
+    m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -530,7 +530,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Oh no! You loose
+  m_Text: Congratulations!
 --- !u!1 &9009283285862494532
 GameObject:
   m_ObjectHideFlags: 0
@@ -550,7 +550,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &7262520224858814542
 RectTransform:
   m_ObjectHideFlags: 0

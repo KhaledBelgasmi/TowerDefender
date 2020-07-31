@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,6 +9,8 @@ public class Shooter : MonoBehaviour
     [SerializeField] GameObject gun;
     AttackerSpawner myLaneSpawner;
     Animator animator;
+    GameObject projectileParent;
+    const string PROJECTILE_PARENT_NAME = "Projectiles";
    
     //This allows you to quickly reference GameObjects by dragging and dropping onto the script in Unity
 
@@ -16,6 +19,16 @@ public class Shooter : MonoBehaviour
     {
         SetLaneSpawner();
         animator = GetComponent<Animator>();
+        CreateProjectileParent();
+    }
+
+    private void CreateProjectileParent()
+    {
+        projectileParent = GameObject.Find(PROJECTILE_PARENT_NAME);
+        if (!projectileParent)
+        {
+            projectileParent = new GameObject(PROJECTILE_PARENT_NAME);
+        }
     }
 
     public void Update()
@@ -59,8 +72,12 @@ public class Shooter : MonoBehaviour
 
     public void Fire()
     {
-        Instantiate(projectile, gun.transform.position, transform.rotation);
+        GameObject newProjectile = 
+            Instantiate(projectile, gun.transform.position, transform.rotation)
+            as GameObject;
+        newProjectile.transform.parent = projectileParent.transform;
         //projectile is the game object to be instantiated at the position of 
         //the gun game object and with the rotation of the cactus which is zero
+
     }
 }
